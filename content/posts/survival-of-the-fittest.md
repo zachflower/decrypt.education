@@ -3,6 +3,9 @@ title: "Survival of the Fittest"
 date: 2024-11-01T08:09:16-07:00
 description: "I've never been much of a napper. I don't know if it's because I'm a generally deep sleeper, or have too much of an overactive mind, or if it's just training from a lifetime of obsession with computer-y things, but napping has never been a skill of mine. That is, until I started teaching."
 image: images/posts/survival-of-the-fittest.webp
+tags:
+  - teaching
+  - health
 ---
 I've never been much of a napper.
 

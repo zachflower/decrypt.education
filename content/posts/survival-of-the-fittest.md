@@ -18,7 +18,7 @@ I was so worn out when I got home every day at 4:30 that I would **immediately**
 
 I'm a few months in now, and I've come to the conclusion that **teaching is an endurance sport**, and winning means taking care of myself in ways that I never really bothered to do before. Eating right, exercising, and getting enough sleep are all things that I've always known are important, but now they're non-negotiable.
 
-I've got a real bedtime now, I'm eating more fruits and vegetables, drinking more water, and have been cutting back on the caffeine and sugar that I used to rely on to get through the day. Hell, I've even started swimming again... at 5:00 in the morning... before school... because I know that if I don't, I won't make it to summer.
+I've got a real bedtime now, I'm eating healthier, drinking more water, and have been (mostly) cutting back on the caffeine and sugar that I used to rely on to get through the day. Hell, I've even started swimming again... at 5:00 in the morning... before school... because I know that if I don't, I won't make it to summer.
 
 Here's the thing though... as exhausting as teaching is, it's **nothing** compared to the anxiety-ridden grind of my previous career. I'm working harder than I ever have before, but for the first time in over a decade I don't have any back pain, I'm not constantly stressed to the point of physical illness, and I'm sleeping better than I have in years.
 

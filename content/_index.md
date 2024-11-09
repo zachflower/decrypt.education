@@ -6,4 +6,4 @@ In the Fall of 2024, I left the world of professional software development and c
 
 Thanks for joining me on this adventure!
 
-\- Z
+**Z**

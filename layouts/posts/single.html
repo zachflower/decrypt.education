@@ -17,11 +17,26 @@
       {{ .Content }}
     </div>
     {{ if .Params.tags }}
-      <div class="tags">
+      <div class="tags" style="margin-bottom: 1rem;">
         {{ range .Params.tags }}
         <a href="{{ "tags/" | relURL }}{{ . }}">#{{ . }}</a>
         {{ end }}
       </div>
     {{ end }}
+    <script src="https://giscus.app/client.js"
+            data-repo="zachflower/decrypt.education"
+            data-repo-id="R_kgDONMk2Gw"
+            data-category="Announcements"
+            data-category-id="DIC_kwDONMk2G84CkIDx"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="0"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="light"
+            data-lang="en"
+            crossorigin="anonymous"
+            async>
+    </script>
   </div>
 {{ end }}

@@ -20,8 +20,6 @@ I'm a few months in now, and I've come to the conclusion that **teaching is an e
 
 I've got a real bedtime now, I'm eating more fruits and vegetables, drinking more water, and have been cutting back on the caffeine and sugar that I used to rely on to get through the day. Hell, I've even started swimming again... at 5:00 in the morning... before school... because I know that if I don't, I won't make it to summer.
 
-Here's the thing though... as exhausting as teaching is, it's **nothing** compared to the anxiety-ridden grind of my previous career.
+Here's the thing though... as exhausting as teaching is, it's **nothing** compared to the anxiety-ridden grind of my previous career. I'm working harder than I ever have before, but for the first time in over a decade I don't have any back pain, I'm not constantly stressed to the point of physical illness, and I'm sleeping better than I have in years.
 
-I'm working harder than I ever have before, but for the first time in over a decade I don't have any back pain, I'm not constantly stressed to the point of physical illness, and I'm sleeping better than I have in years.
-
-I'm not saying that teaching is easy, but I am saying that it's a **different kind of hard**. And for me, it's a trade-off that has been worth every bit of effort.
+I'm not saying that teaching is easy (it's the opposite, actually), but I am saying that it's a **different kind of hard**. And for me, it's a trade-off that has been worth every bit of effort.

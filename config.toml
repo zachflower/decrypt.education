@@ -8,6 +8,9 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
+[outputs]
+  home = ["HTML", "RSS"]
+
 [module]
   [module.hugoVersion]
     extended = true

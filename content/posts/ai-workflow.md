@@ -17,6 +17,6 @@ I was wrong.
 
 So, in order to keep my head above water, I've had to get creative with how I use my time.
 
-Enter: AI.
+Enter: AI
 
 ## Lesson Planning

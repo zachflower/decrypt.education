@@ -20,3 +20,7 @@ So, in order to keep my head above water, I've had to get creative with how I us
 Enter: AI
 
 ## Lesson Planning
+
+## Grading and Assessment
+
+## Professional Development

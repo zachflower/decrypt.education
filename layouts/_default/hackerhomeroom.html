@@ -47,7 +47,7 @@
       margin: 0 auto;
       text-shadow: 0 1px 0 #fff8;
       border-radius: 2px;
-      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
       position: relative;
       font-family: 'Special Elite', 'Fira Mono', 'Consolas', 'Monaco', monospace;
       line-height: 1.7;
@@ -93,15 +93,23 @@
     content: "";
   }
 
-  .zine-content pre, .zine-content code {
-      background: #f5f5f5;
-      color: #222;
-      border-radius: 0;
-      box-shadow: none;
-      border: 1px solid #ccc;
-      padding: 0.5em 1em;
-      font-family: 'Fira Mono', 'Consolas', 'Monaco', monospace;
+  .zine-content pre {
+      background: #333;
+      color: #eee;
+      padding: 1em;
+      font-size: 1em;
+      text-shadow: 0 1px 0 #fff8;
+      font-family: 'Special Elite', 'Fira Mono', 'Consolas', 'Monaco', monospace;
+      border-radius: 2px;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   }
+
+  .zine-content code {
+      font-size: 1em;
+      text-shadow: 0 1px 0 #fff8;
+      font-family: 'Special Elite', 'Fira Mono', 'Consolas', 'Monaco', monospace;
+  }
+
   .zine-content ul {
     list-style: asterisks;
     padding-left: 2em;

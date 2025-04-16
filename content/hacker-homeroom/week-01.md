@@ -69,7 +69,7 @@ Your first assignment is to <mark>start lying to the internet</mark>. This is no
     - What did you learn about yourself in the process?
     - How does it feel to lie to the internet?
 
-**BONUS:** Leave behind an intentional but confusing digital breadcrumb trail. Create plausible deniability without being boring.
+**BONUS:** <mark>Leave behind an intentional but confusing digital breadcrumb trail. Create plausible deniability without being boring.</mark>
 
 ---
 

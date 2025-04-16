@@ -1,0 +1,13 @@
+{{/*
+Shortcode: hackerhomeroomweeks
+Lists all weeks in content/hacker-homeroom/, sorted by .Params.week, with title and link.
+*/}}
+<ul class="hackerhomeroom-weeks">
+  {{ $weeks := where .Site.RegularPages "Type" "hacker-homeroom" }}
+  {{ $weeks = sort $weeks ".Params.week" }}
+  {{ range $weeks }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+  {{ end }}
+</ul>

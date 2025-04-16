@@ -6,7 +6,7 @@
   <title>Hacker Homeroom</title>
   <link rel="icon" type="image/png" href="/favicon.png">
   <!-- Pixel/handwritten font for headings, typewriter for body -->
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Permanent+Marker&family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
   <style>
   body.hackerhomeroom {
       background: #f7f6f2;
@@ -79,7 +79,7 @@
       font-style: italic;
       background: none;
       margin: 1.5em 0;
-      font-family: 'Permanent Marker', cursive, monospace;
+      font-family: 'Special Elite', 'Fira Mono', 'Consolas', 'Monaco', monospace;
       font-size: 1.1em;
       transform: none;
   }
@@ -90,7 +90,7 @@
   }
   .zine-content h1, .zine-content h2, .zine-content h3 {
       color: #222;
-      font-family: 'Permanent Marker', 'Press Start 2P', cursive, monospace;
+      font-family: 'Special Elite', 'Fira Mono', 'Consolas', 'Monaco', monospace;
       text-shadow: 0 0 6px #fff, 0 0 2px #fff;
       margin-top: 2em;
       margin-bottom: 0.5em;
@@ -112,6 +112,7 @@
 <script>document.body.classList.add('hackerhomeroom');</script>
 <div class="hackerhomeroom-main">
     <div class="zine-content">
+        <h1>{{ .Title }}</h1>
         {{ .Content }}
     </div>
 </div>

@@ -1,25 +1,22 @@
 ---
-title: "Hacker Homeroom"
+title: "Course Outline"
 description: "A retro syllabus for aspiring hackers, tinkerers, and digital explorers."
-date: 2025-04-16
 layout: "hackerhomeroom"
 ---
 
-Welcome to **Hacker Homeroom**—your terminal to the world of hacking, digital literacy, and cybersecurity. This is a playful, hands-on syllabus for curious minds who want to learn how computers, networks, and the internet really work.
+Welcome to **Hacker Homeroom**.
 
-## Syllabus Overview
+This course was not approved by the school board. It was not submitted for review, not listed in Infinite Campus, and technically doesn't exist. If you're here, you either made a wrong turn or you know exactly where you're supposed to be.
 
-- Week 1: What is Hacking? Ethics & History
-- Week 2: Digital Hygiene & Personal Security
-- Week 3: Networks & the Internet
-- Week 4: Cryptography Basics
-- Week 5: Social Engineering & Phishing
-- Week 6: Web Security 101
-- Week 7: Hacking Tools & Demos
-- Week 8: Capture the Flag (CTF) Challenge
+**Hacker Homeroom** is a semester-long immersion into subversive computing, inspired by over four decades of hacking culture. Every lesson is real. Every exploit has been tested in the field—often by teenagers with too much time and too little supervision.
 
-> _"The quieter you become, the more you are able to hear."_ — Kali Linux
+This is not about theory. This is about doing.
 
----
+The syllabus below outlines a full 18-week course blending system intrusion, digital disguise, network manipulation, and physical bypass—taught from behind a desk covered in stickers and caffeine residue. It is structured, thorough, and deeply unethical in the most ethical way possible.
 
-Explore the modules above to begin your journey.
+If anyone asks, we're learning "digital literacy."
+
+
+## Syllabus
+
+{{< hackerhomeroomweeks >}}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hacker Homeroom</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <!-- Pixel/handwritten font for headings, typewriter for body -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Permanent+Marker&family=Special+Elite&display=swap" rel="stylesheet">
+  <style>
+  body.hackerhomeroom {
+      background: #f7f6f2;
+      color: #222;
+      font-family: 'Special Elite', 'Fira Mono', 'Consolas', 'Monaco', monospace;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+      background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+      background-blend-mode: normal;
+  }
+  body.hackerhomeroom::before {
+      content: '';
+      pointer-events: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      z-index: 1;
+      background: url('https://www.transparenttextures.com/patterns/noise.png');
+      mix-blend-mode: overlay;
+      opacity: 0.3;
+      animation: none;
+  }
+  @keyframes flicker {
+      0%, 100% { opacity: 0.8; }
+      48% { opacity: 0.9; }
+      50% { opacity: 0.7; }
+      52% { opacity: 1; }
+      60% { opacity: 0.8; }
+  }
+  .hackerhomeroom-main {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+      position: relative;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      margin: 2vw 4vw;
+      background: none;
+      transform: none;
+  }
+  /* Remove BBS ASCII and footer, focus on content */
+  .zine-content {
+      color: #222;
+      background: none;
+      padding: 2.5em 2.5em 2em 2.5em;
+      font-size: 1.15em;
+      max-width: 700px;
+      margin: 0 auto;
+      text-shadow: 0 1px 0 #fff8;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      position: relative;
+      background: none;
+      font-family: 'Special Elite', 'Fira Mono', 'Consolas', 'Monaco', monospace;
+      line-height: 1.7;
+      letter-spacing: 0.01em;
+      transform: none;
+  }
+  .zine-content blockquote {
+      color: #444;
+      border-left: 3px solid #aaa;
+      padding-left: 1em;
+      font-style: italic;
+      background: none;
+      margin: 1.5em 0;
+      font-family: 'Permanent Marker', cursive, monospace;
+      font-size: 1.1em;
+      transform: none;
+  }
+  .zine-content hr {
+      border: 0;
+      border-top: 1px solid #bbb;
+      margin: 2em 0;
+  }
+  .zine-content h1, .zine-content h2, .zine-content h3 {
+      color: #222;
+      font-family: 'Permanent Marker', 'Press Start 2P', cursive, monospace;
+      text-shadow: 0 0 6px #fff, 0 0 2px #fff;
+      margin-top: 2em;
+      margin-bottom: 0.5em;
+      transform: none;
+  }
+  .zine-content pre, .zine-content code {
+      background: #f5f5f5;
+      color: #222;
+      font-size: 1em;
+      border-radius: 0;
+      box-shadow: none;
+      border: 1px solid #ccc;
+      padding: 0.5em 1em;
+      font-family: 'Fira Mono', 'Consolas', 'Monaco', monospace;
+  }
+  </style>
+</head>
+<body class="hackerhomeroom">
+<script>document.body.classList.add('hackerhomeroom');</script>
+<div class="hackerhomeroom-main">
+    <div class="zine-content">
+        {{ .Content }}
+    </div>
+</div>
+</body>
+</html>

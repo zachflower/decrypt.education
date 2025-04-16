@@ -2,6 +2,10 @@
 title: "Course Outline"
 description: "A retro syllabus for aspiring hackers, tinkerers, and digital explorers."
 layout: "hackerhomeroom"
+teacher: Mr. Flower
+course: "Hacker Homeroom"
+room: 127.0.0.1
+email: zach.flower@decrypt.education
 ---
 
 Welcome to **Hacker Homeroom**.

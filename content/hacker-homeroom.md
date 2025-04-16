@@ -1,5 +1,5 @@
 ---
-title: "Course Outline"
+title: "Hacker Homeroom"
 description: "A retro syllabus for aspiring hackers, tinkerers, and digital explorers."
 layout: "hackerhomeroom"
 teacher: Prof. Zachary Flower
@@ -7,6 +7,8 @@ course: "HAK 1021 Hacker Homeroom - Fall 2025"
 room: 127.0.0.1
 email: zach.flower@decrypt.education
 ---
+
+## Course Outline
 
 Welcome to **Hacker Homeroom**.
 
@@ -21,11 +23,11 @@ The syllabus below outlines a full 18-week course blending system intrusion, dig
 If anyone asks, we're learning "digital literacy."
 
 **Prerequisites:**
-- \* A working computer with a terminal
-- \* A willingness to break things
-- \* A sense of humor
-- \* A desire to learn
-- \* A healthy disregard for authority
+- A working computer with a terminal
+- A willingness to break things
+- A sense of humor
+- A desire to learn
+- A healthy disregard for authority
 
 ## Syllabus
 

@@ -3,6 +3,7 @@ title: "Week 2: MAC Daddy"
 week: 2
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

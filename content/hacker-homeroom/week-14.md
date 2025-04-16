@@ -3,6 +3,7 @@ title: "Week 14: Red Team, Blue Team"
 week: 14
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

@@ -3,6 +3,7 @@ title: "Week 3: The Network is the Computer"
 week: 3
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

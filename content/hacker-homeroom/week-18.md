@@ -3,6 +3,7 @@ title: "Week 18: Graduation & Next Steps"
 week: 18
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

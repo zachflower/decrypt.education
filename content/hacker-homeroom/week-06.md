@@ -3,6 +3,7 @@ title: "Week 6: Trojan Horses for Homework"
 week: 6
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

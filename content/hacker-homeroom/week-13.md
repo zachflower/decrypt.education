@@ -3,6 +3,7 @@ title: "Week 13: The Art of the Report"
 week: 13
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

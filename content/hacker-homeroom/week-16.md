@@ -3,6 +3,7 @@ title: "Week 16: Wi-Fi Is a Lie"
 week: 16
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

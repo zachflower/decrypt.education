@@ -3,6 +3,7 @@ title: "Week 12: Automating the Boring Stuff (for Hackers)"
 week: 12
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

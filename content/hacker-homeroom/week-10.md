@@ -3,6 +3,7 @@ title: "Week 10: Persistence Is Futile (Unless You're the Hacker)"
 week: 10
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

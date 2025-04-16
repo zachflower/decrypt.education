@@ -3,6 +3,7 @@ title: "Week 7: Digital Dead Drops"
 week: 7
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

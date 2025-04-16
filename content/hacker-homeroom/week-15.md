@@ -3,6 +3,7 @@ title: "Week 15: Building Your Hacker Toolkit"
 week: 15
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

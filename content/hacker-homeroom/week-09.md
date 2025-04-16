@@ -3,6 +3,7 @@ title: "Week 9: Midterm – Capture the Flag: Local Edition"
 week: 9
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

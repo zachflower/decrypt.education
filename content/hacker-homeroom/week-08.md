@@ -3,6 +3,7 @@ title: "Week 8: Physical Security"
 week: 8
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

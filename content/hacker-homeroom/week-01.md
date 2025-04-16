@@ -3,6 +3,7 @@ title: "Week 1: Welcome to Hacker Homeroom"
 week: 1
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

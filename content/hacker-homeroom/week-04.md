@@ -3,6 +3,7 @@ title: "Week 4: The Art of Social Engineering"
 week: 4
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

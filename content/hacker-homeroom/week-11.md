@@ -3,6 +3,7 @@ title: "Week 11: Social Engineering 2.0"
 week: 11
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

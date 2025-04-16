@@ -3,6 +3,7 @@ title: "Week 17: Final Project Presentations"
 week: 17
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

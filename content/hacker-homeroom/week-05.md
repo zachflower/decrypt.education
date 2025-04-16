@@ -3,6 +3,7 @@ title: "Week 5: QR Codes from Hell"
 week: 5
 draft: false
 type: "hacker-homeroom"
+layout: "hackerhomeroom"
 ---
 
 ### Themes

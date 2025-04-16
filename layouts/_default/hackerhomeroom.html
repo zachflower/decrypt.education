@@ -8,6 +8,12 @@
   <!-- Pixel/handwritten font for headings, typewriter for body -->
   <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
   <style>
+  @counter-style asterisks {
+      system: cyclic;
+      symbols: "*";
+      suffix: " ";
+  }
+
   body {
       background: #f7f6f2;
       color: #222;
@@ -46,7 +52,6 @@
       font-family: 'Special Elite', 'Fira Mono', 'Consolas', 'Monaco', monospace;
       line-height: 1.7;
       letter-spacing: 0.01em;
-      text-align: justify;
   }
   .zine-content blockquote {
       color: #444;
@@ -73,6 +78,9 @@
       text-decoration: underline;
       font-size: 1em;
   }
+  .zine-content h1::before, .zine-content h2::before, .zine-content h3::before {
+      content: "> ";
+  }
 
   .zine-content h1.title {
     text-align: center;
@@ -90,23 +98,40 @@
       font-family: 'Fira Mono', 'Consolas', 'Monaco', monospace;
   }
   .zine-content ul {
-      list-style: none;
+    list-style: asterisks;
+    padding-left: 2em;
   }
-  .zine-content ul li::before {
-    content: "*";
-    margin-right: 0.5em;
-    color: inherit;
+  .zine-content ol {
+      list-style: decimal-leading-zero;
+      padding-left: 2em;
+  }
+  .zine-content li {
+    margin: .5em 0;
+  }
+  .zine-content li::marker {
+      font-weight: bold;
   }
   .syllabus-header {
       margin-bottom: 2em;
       font-family: 'Fira Mono', 'Consolas', 'Monaco', monospace;
+  }
+  .zine-content hr {
+    border: none;
+    height: 1em;
+    background: none;
+    position: relative;
+    margin: 2em 0;
+  }
+  .zine-content hr::before {
+    content: "----------------------------------------";
+    display: block;
+    text-align: center;
   }
   </style>
 </head>
 <body class="hackerhomeroom">
 <script>document.body.classList.add('hackerhomeroom');</script>
 <div class="hackerhomeroom-main">
-    {{/*  only show if week is not set  */}}
     <div class="zine-content">
         {{ if not (isset .Params "week") }}
             <div class="syllabus-header">

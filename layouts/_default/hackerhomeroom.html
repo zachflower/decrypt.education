@@ -95,7 +95,7 @@
       margin-top: 2em;
       margin-bottom: 0.5em;
       transform: none;
-      text-align: center;
+      text-decoration: underline;
   }
   .zine-content pre, .zine-content code {
       background: #f5f5f5;
@@ -111,21 +111,9 @@
       list-style: none;
   }
   .syllabus-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
       margin-bottom: 2em;
-      font-size: 0.8em;
+      font-size: 0.75em;
       font-family: 'Fira Mono', 'Consolas', 'Monaco', monospace;
-  }
-  .syllabus-header-col {
-      width: 48%;
-  }
-  .syllabus-header-col.left {
-      text-align: left;
-  }
-  .syllabus-header-col.right {
-      text-align: right;
   }
   </style>
 </head>
@@ -134,14 +122,10 @@
 <div class="hackerhomeroom-main">
     <div class="zine-content">
         <div class="syllabus-header">
-            <div class="syllabus-header-col left">
-                {{ .Params.teacher }}<br>
-                {{ .Params.course }}
-            </div>
-            <div class="syllabus-header-col right">
-                <strong>Room:</strong> {{ .Params.room }}<br>
-                <strong>MAILTO:</strong> <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
-            </div>
+            <strong>HAK 1021 Hacker Homeroom - Fall 2025</strong><br />
+            Instructor: Zachary Flower &lt;zach.flower@decrypt.education&gt;<br />
+            Office: /dev/null<br />
+            Office Phone: (800) 444-4444<br />
         </div>
         <h1>{{ .Title }}</h1>
         {{ .Content }}

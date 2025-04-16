@@ -88,6 +88,10 @@
     text-decoration: none;
   }
 
+  .zine-content h1.title::before {
+    content: "";
+  }
+
   .zine-content pre, .zine-content code {
       background: #f5f5f5;
       color: #222;
@@ -127,11 +131,28 @@
     display: block;
     text-align: center;
   }
+  .zine-nav {
+    text-align: center;
+    margin: 2em 0;
+  }
   </style>
 </head>
 <body class="hackerhomeroom">
 <script>document.body.classList.add('hackerhomeroom');</script>
 <div class="hackerhomeroom-main">
+    <div class="zine-nav">
+      [
+        {{ if isset .Params "week" }}
+          {{ if not (eq .NextInSection.RelPermalink "/hacker-homeroom/") }}
+            {{ with .NextInSection }}<a href="{{ .RelPermalink }}"><<</a>{{ end }} |
+          {{ end }}
+        {{ end }}
+        <a href="/hacker-homeroom/">Home</a>
+        {{ if isset .Params "week" }}
+          | {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">>></a>{{ end }}
+        {{ end }}
+      ]
+    </div>
     <div class="zine-content">
         {{ if not (isset .Params "week") }}
             <div class="syllabus-header">
@@ -143,6 +164,19 @@
         {{ end }}
         <h1 class="title">{{ .Title }}</h1>
         {{ .Content }}
+    </div>
+    <div class="zine-nav">
+      [
+        {{ if isset .Params "week" }}
+          {{ if not (eq .NextInSection.RelPermalink "/hacker-homeroom/") }}
+            {{ with .NextInSection }}<a href="{{ .RelPermalink }}"><<</a>{{ end }} |
+          {{ end }}
+        {{ end }}
+        <a href="/hacker-homeroom/">Home</a>
+        {{ if isset .Params "week" }}
+          | {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">>></a>{{ end }}
+        {{ end }}
+      ]
     </div>
 </div>
 </body>

@@ -3,6 +3,7 @@ languageCode = "en-us"
 theme = "hugo-winston-theme"
 themesDir = "themes"
 title = "Decrypt.ED"
+paginate = 3
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
@@ -46,9 +47,6 @@ pygmentsUseClasses = true
       hardWraps = false
       unsafe = true
       xhtml = false
-
-[pagination]
-  pagerSize = 3
 
 [menu]
   [[menu.main]]
